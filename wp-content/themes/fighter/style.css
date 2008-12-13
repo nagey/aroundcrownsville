@@ -63,14 +63,14 @@ Header
 	
 .header-title {
 	font-family: Tahoma, Verdana, Arial;
-	color:#fff;
+	color:#ddd;
 	font-size:28px;
     font-weight:bold;
 	padding:50px 0 0 50px;
 	text-align:left;
 	}
 .header-title a{
-	color:#fff;
+	color:#ddd;
 	text-decoration:none;
 	border-bottom:none;
 	}
@@ -81,7 +81,7 @@ Header
 	}
 .header-description {
     font-family:Tahoma, Arial, Helvetica, sans-serif;
-	color:#fff;
+	color:#aaa;
 	font-size:11px;
 	padding:0px 0 0 51px;
 	text-align:left;
@@ -100,7 +100,7 @@ Header
 }
 
 .nav li a {
-	margin-top:182px;
+	margin-top:167px;
 	padding:0 1em 0 1em;
 	text-decoration:none;
 	text-transform:uppercase;
