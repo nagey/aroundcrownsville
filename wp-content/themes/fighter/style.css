@@ -1,0 +1,524 @@
+/*  
+Theme Name: Fighter
+Theme URI:
+Description: Fighter theme desgined by <a href="http://www.mydizayn.org/">My Dizayn</a>.
+Version: 1.4
+Author: Suat
+Author URI: http://www.mydizayn.org/
+Tags: black, white, widget ready, two columns, simple
+*/
+
+
+* { margin: 0; padding: 0; }
+
+body {
+	text-align: center;
+	margin: 0 auto;
+	}
+	
+
+/* -------------------
+Main Structure
+------------------- */
+	
+#frame {
+	width: 827px;
+	text-align: left;
+	margin: 0 auto;
+	}
+	
+#middle {
+	overflow: auto;
+	width: 100%;
+	margin:0 auto;
+	}
+
+#content {
+	float: left;
+	width: 550px;
+    padding-left: 0px;
+    padding-right: 0px;
+    background: #fefefe;
+	border-top: 1px solid #000000;
+	overflow:hidden;
+	}
+	
+#sidebar {
+	float: left;
+	width: 229px;
+	padding: 0px 0px 10px 45px;
+	border-top: 1px solid #000000;
+	}
+	
+/* -------------------
+Header
+------------------- */
+
+#header {
+        background: url(images/header.jpg);
+        width: 827px;
+        height: 306px;
+		margin:5px auto;
+	}
+	
+.header-title {
+	font-family: Tahoma, Verdana, Arial;
+	color:#000000;
+	font-size:28px;
+    font-weight:bold;
+	padding:50px 0 0 50px;
+	text-align:left;
+	}
+.header-title a{
+	color:#000000;
+	text-decoration:none;
+	border-bottom:none;
+	}
+.header-title a:hover{
+	color:#FFFFFF;
+	text-decoration:none;
+	border-bottom:none;
+	}
+.header-description {
+    font-family:Tahoma, Arial, Helvetica, sans-serif;
+	color:#000000;
+	font-size:11px;
+	padding:0px 0 0 51px;
+	text-align:left;
+    font-weight:bold;
+	}
+	
+.nav {
+	margin:0 auto;
+	list-style:none;
+	font-family:Tahoma, Arial, Helvetica, sans-serif;
+	text-align:left;
+}
+
+.nav li {
+	display: inline;
+}
+
+.nav li a {
+	margin-top:182px;
+	padding:0 1em 0 1em;
+	text-decoration:none;
+	text-transform:uppercase;
+	float:left;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-size:14px;
+}
+
+/* -------------------
+Content
+------------------- */
+
+#content .post {
+	margin: 0 10px 20px 10px;
+	}
+	
+/* general #content definitions */
+	
+#content h2 {
+	color: #ff0000;
+	font: 0.8em Tahoma, Arial, Helvetica, sans-serif; 
+	margin: 11px 0 8px 0;
+    padding: 4px 0px 5px 6px;
+	background:#F4F4F4
+	}
+
+#content h2 a {
+	color: #ff0000;
+	text-decoration: none;
+	font-weight: bold;
+	}
+
+#content h2 a:hover {
+	color: #ff0000;
+	text-decoration: none;
+	}
+	
+#content h3 {
+	font: 0.7em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+    margin-left: 15px;
+	}
+	
+#content h4 {
+	font: 0.7em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+	border-left: 1em solid #000000;
+	padding: 0 0 0 0.5em;
+	margin: 1em 0;
+	}
+	
+#content p, #content dl {
+	font: 0.7em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+	}
+	
+#content p, #content ul, #content ol, #content dl {
+	margin: 0 0 0.7em 0;
+	}
+	
+#content li {
+	margin: 0 0 0 30px;
+	font: 0.8em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+	}
+	
+#content dl dt {
+	font-weight: bold;
+	}
+	
+#content dl dd {
+	margin: 0 0 0.4em 0.5em;
+	}
+	
+#content blockquote {
+	margin: 0 0 0 1em;
+	border-left: 5px solid #15a1c4;
+	padding: 0 0 0 1em;
+}
+	
+#content a {
+	color: #000000;	
+	font: 1em Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+ }
+#content a:hover { color: #ff0000; }
+	
+#content .post ul.post-data {	
+    border-top: 1px dotted #000000;
+	list-style: none;
+	font: 0.85em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+	padding: 0.1em 0 0.2em 0;
+	color: #fefefe;
+	margin: 1.3em 0 0 0;
+	}
+
+#content .post ul.post-data li {
+	color: #000000;
+	}
+	
+#content .post ul.post-data a {
+	color: #000000;
+    text-decoration: none;
+    font-weight:bold;
+	}
+	
+#content .post ul.post-data a:hover {
+	color: #ff0000;
+        text-decoration: underline;
+        font-weight:bold;
+	}
+
+#content .post ul.post-data li.comments {
+	float: right;
+	margin: 0 0.7em 0 0;
+	display: inline;
+	font: 0.8em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+	}
+	
+#content .post ul.post-data li.comments a {
+	padding: 0 0 0 15px;
+
+	}
+#content .post ul.post-data li.tags {
+	margin: 0 0 0 0.7em;
+	}
+	
+#content .post ul.post-data li.tags a {
+	padding: 0 0 0 1px;
+
+	}
+	
+#content .post ul.post-data li.posted {
+	margin: 0 0 0 0.7em;
+
+	}
+	
+#content .post ul.post-data li.posted a {
+	padding: 0 0 0 1px;
+
+	}
+	
+#content .post ul.post-data li.comments a:hover, #content .post ul.post-data li.posted a:hover, #content .post ul.post-data li.tags a:hover {
+	background-position: 0 -38px;
+
+	}
+
+.entry {
+	margin: 0px 0 0px 0;
+	padding: 0px 0 5px 0;
+	}
+
+.entry  p {
+	margin: 5px 0 5px 0;
+	padding: 0;
+	}
+
+
+.entry  img { 
+      padding: 5px;
+      border: 1px dotted #000000;
+      }
+
+
+.entry  img.alignleft { 
+                float: left;
+                margin: 3px 3px 1px 0;
+                }
+
+.entry  img.alignright { 
+                 float: right;
+                 margin: 0 3px 1px 3px;
+                 }
+
+.spacer {   padding: 0px;
+            text-align: right;
+            clear: both;
+            text-transform: lowercase;
+            }
+	
+
+/* -------------------
+Comments
+------------------- */
+
+#content #comments {
+	margin: 0 20px 20px 25px;
+	}
+	
+#content #comments .comment {
+	margin: 0 0 2em 0;
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+	}
+	
+#content #comments .comment p, #content #comments .comment li, #content #comments .comment a { 
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+	color: #a6bcd8;	}
+#content #comments .comment a:hover { 
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+	color: #15a1c4; }
+	
+#content #comments .comment p {
+	margin: 0 0 0.8em 0;
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+	}
+	
+#content #comments .comment .comment-data p {
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+	color: #000000;
+	padding: 0 0 0 22px;
+	margin: 1.5em 0 0 0;
+	}
+	
+#content #comments .comment .comment-data p a { 
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+	color: #000000; }
+#content #comments .comment .comment-data p a:hover { color: #ff0000; }
+
+#content #comments form {
+	color: #000000;
+	font: 0.75em/1.6em Arial, Helvetica, sans-serif;
+	}
+
+#content #comments form a { color: #000000; }
+#content #comments form a:hover { color: #ff0000; }
+	
+/* -------------------
+Sidebar
+------------------- */
+
+
+	
+#sidebar h3 {
+	color: #ff0000;
+	font: 0.8em/1.5em Tahoma, Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	margin: 0 0 0px 0;
+    padding: 1px 0px 1px 0px;
+	border-bottom: 1px dotted #000000;
+	text-align: left;
+	}
+	
+#sidebar p, #sidebar li {
+	color: #000000;
+	font: 0.7em/1.5em Tahoma, Arial, Helvetica, sans-serif;        
+	}
+	
+#sidebar p, #sidebar ul, #sidebar ol {
+	margin: 0 0 16px 0;
+	}
+	
+#sidebar ul { 
+	list-style: none; 
+	}
+
+#sidebar ul li {
+	padding: 2px 0px 1px 0px;
+	list-style-type: circle;
+	margin-left: 18px;
+	}
+	
+
+#sidebar a {
+	color: #000000;
+	text-decoration: none;
+    font-weight:bold;
+	}
+	
+#sidebar a:hover {
+	color: #ff0000;
+	text-decoration: underline;
+    font-weight:bold;
+	}
+
+
+
+/* -------------------
+Footer
+------------------- */
+
+#footer {
+	clear: left;
+    width: 827px;
+    margin:0 auto;
+	border-top:solid 1px #000000;
+	}
+	
+#footer #footertext {
+	color: #000000;
+	font: 0.7em Tahoma, Arial, Helvetica, sans-serif; 
+	padding: 10px 0 0 0;
+	text-align: left;
+	}
+	
+#footer #footertext a {
+	color: #000000;
+	text-decoration: none;
+	}
+
+#footer #footertext a:hover {
+	color: #ff0000;
+	text-decoration: none;
+	}
+	
+#footer #searchform {
+	padding: 32px 0 0 31px;
+	}
+	
+#footer #searchform .searchfield {
+	height: 18px;
+	}
+	
+#footer #searchform .searchbutton {
+   height:23px;
+	}
+
+.alt {
+	margin: 0;
+	padding: 10px;
+	}
+
+.commentlist {
+	padding: 0;
+	text-align: justify;
+	}
+
+.commentlist li {
+	margin: 15px 0 3px;
+	padding: 5px 10px 3px;
+	list-style: none;
+	}
+
+.commentlist p {
+	margin: 10px 5px 10px 0;
+	font-weight: normal;
+	line-height: 1.5em;
+	text-transform: none;
+	letter-spacing: 1px;
+	}
+
+#commentform p {
+	margin: 5px 0;
+	}
+
+.nocomments {
+	text-align: center;
+	margin: 0;
+	padding: 0;
+	}
+
+.commentmetadata {
+	margin: 0;
+	display: block;
+	font-weight: normal;
+	}
+
+.commentlist li .avatar { 
+	float: right;
+	border: 1px solid #eee;
+	padding: 2px;
+	}
+ol.commentlist .author_comment {
+	background:#F5F5F5;
+	border-bottom: 1px solid #0066CC;
+	border-top: 1px solid #0066CC;
+}
+
+#commentform {
+margin: 2em 0;
+margin-left:2em;
+width: 565px;
+}
+
+#commentform textarea {
+border: 1px solid #ff0000;
+width: 475px;
+}
+
+#commentform #email, #commentform #author, #commentform #url {
+font-size: 1.1em;
+border: 1px solid #ff0000;
+width: 180px;
+height: 15px;
+}
+
+#commentform input{
+margin-bottom: 3px;
+}
+
+#commentform #submit {
+	margin:0 auto;
+	float:left;
+    background:#000000;
+    color: #ffffff;
+	font: 11px Tahoma, Arial, Helvetica, sans-serif;
+	border:1px solid #000000;
+	padding:2px 8px 2px 8px;
+    margin-bottom: 10px;
+    height: 20px;
+	}
+
+.post{margin:0 0 25px 0;}
+
+.post .info{
+padding:2px 3px 3px 8px;
+border:1px solid #000000;
+background-color:#ffffff;
+font-size:12px;
+color:#000000;
+}
+
+.alignright {
+	float: right;
+	}
+
+.alignleft {
+	float: left
+	}
+.aligncenter, div.aligncenter {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+}

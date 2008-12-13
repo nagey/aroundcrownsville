@@ -1,0 +1,955 @@
+/*
+Theme Name: Fresh Editorial
+Description: The WordPress theme was designed by Maruf Rahman, from over at <a href="http://www.brightcherry.co.uk/">Brightcherry</a>.
+Version: 2.1
+Author: Maruf Rahman
+Author URI: http://www.brightcherry.co.uk/
+Tags: black, white, grey, fixed width, editorial, widgets, simple, right sidebar, clean
+
+
+	This theme was designed and built by Maruf Rahman,
+	whose blog you will find at http://www.brightcherry.co.uk/
+
+	If you have any questions about this theme, please
+	visit http://www.brightcherry.co.uk/
+*/
+
+
+
+/* Global
+------------------------------------------------------------------*/
+html, body, form, fieldset, h1, h2, h3, h4, h5, h6, p, pre, blockquote, ul, ol, dl, address {
+	margin:0;
+	padding:0;
+	}
+ul,li {
+	list-style-type:none;
+	}
+
+
+ul.children{
+	float:left;
+}
+
+
+a{
+	outline: none;
+}
+
+body {
+	margin:0;
+	padding:0;
+	text-align:center;
+	background:url(images/bg.gif) #eee repeat-x;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:12px;
+}
+
+img {
+	border:none;
+}
+
+
+#wrapper{
+	width:850px;
+	margin: 0 auto;
+	text-align:left;
+}
+
+
+
+/* H tags
+------------------------------------------------------------------*/
+
+h1{
+	font-size:26px;
+	letter-spacing:-0.1em;
+	color:#666;
+	text-transform:capitalize;
+}
+
+h1 a{
+	font-size:26px;
+	letter-spacing:-0.1em;
+	color:#666;
+	text-decoration:none;
+}
+
+h1 a:hover{
+	color:#767575;
+}
+
+h1.pagetitle{
+	margin-top:30px;
+}
+
+#title h1{
+	margin-top:30px;
+	text-transform:capitalize;
+}
+
+#title h2{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:26px;
+	letter-spacing:-0.1em;
+	color:#666;
+	margin-top:30px;	
+}
+
+#title h2 a{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:26px;
+	letter-spacing:-0.1em;
+	color:#666;
+	text-decoration:none;
+}
+
+#title h2 a:hover{
+	color:#767575;
+}
+
+
+h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	text-transform:capitalize;
+}
+
+h3{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+}
+
+/* header
+------------------------------------------------------------------*/
+
+
+#header{
+	position:relative;
+}
+
+#headertag{
+	position:relative;
+}
+
+#toptag{
+	position:absolute;
+	right:90px;
+	top:-4px;
+}
+
+#topheader{
+	color:#999;
+	text-align:left;
+	float:left;
+	width:850px;	
+}
+
+
+#topheader li{
+	float:left;
+	margin:12px 15px 0 0;
+	text-transform: uppercase;	
+}
+
+#topheader a{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	color:#fff;
+	font-size:12px;
+	text-decoration:none;
+	letter-spacing:0.1em;
+	font-weight:bold;
+}	
+
+#topheader a:hover{
+	color:#ccc;
+}
+
+#mainnavigation{
+	float:right;
+	height:55px;
+	background:url('images/topnavbgred.gif');
+	padding: 0 10px 0 10px;
+	
+}
+
+#mainnavigationright{
+	float:right;
+	height:55px;
+	width:6px;
+	background:url('images/leftnavbgred.gif');
+}
+
+
+#mainnavigationleft{
+	float:right;
+	height:55px;
+	width:6px;
+	background:url('images/leftnavbgred.gif');
+	margin-right:10px;
+	
+}
+
+#mainnavigation ul{
+	padding-left:15px;
+	padding-top:6px;
+}
+
+
+#logo{
+	float:left;
+	width:850px;
+	z-index:8;
+	height:83px;
+}
+
+#navigation{
+	height:33px;
+	float:left;
+	width:850px;
+}
+
+#navigation li{
+	float:left;
+	height:33px;
+	border-left: 1px #c0c0c0 solid;
+	line-height:30px;
+	text-transform: capitalize;
+	
+}
+
+#navigation a{
+	color:#666;
+	text-decoration:none;
+	letter-spacing:0.1em;
+	float:left;
+	padding:1px 10px 3px 10px;
+}
+
+#navigation a:hover{
+	color:#A4C155;
+	background:#DFDFDF;
+	float:left;
+	padding:1px 10px 3px 10px;
+}
+
+
+
+/* content
+------------------------------------------------------------------*/
+
+#content{
+	width:850px;
+	background:url('images/mainbg.gif') no-repeat;
+	float:left;
+}
+
+
+#mainimage{
+	float:left;
+	margin-top:15px;
+	background:#fff;
+}
+
+#mainimage img{
+	border:1px #666 solid;
+	padding:3px;
+}
+
+#contentleft{
+	width:600px;
+	float:left;
+}
+
+#contentright{
+	width:250px;
+	float:left;
+}
+
+h2 a{
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:20px;
+	color:#333;
+	text-decoration:none;
+}
+
+h2 a:hover{
+	color:#666;
+}
+
+
+.blogtitle{
+	position:relative;
+	top:8px;
+	padding-bottom:12px;
+	border-bottom:1px #eee solid;
+	width:450px;
+}
+
+.blogpost{
+	position:relative;
+	float:left;
+	background:#fff;
+	padding:10px;
+	margin-top:30px;
+	width:566px;
+}
+
+.blogpost a{
+	color:#666;
+}
+
+.blogpost a:hover{
+	color:#333;
+	background:#FAFAFA;
+}
+
+.datetab{
+	position:absolute;
+	height:100px;
+	width:123px;
+	background:url('images/datetab.gif');
+	right:-10px;
+	top:-20px;
+}
+
+.blogauthor{
+	position:relative;
+	top:11px;
+	color:#666;
+	font-style:italic;
+	font-size:11px;
+}
+
+.blogcontent{
+	padding-top:25px;
+	line-height:1.6em;
+	width:560px;
+}
+
+.blogcontent p{
+	margin-top:10px;
+	line-height:1.6em;
+}
+
+.blogcontent ul, .blogcontent ol{
+	margin-left:25px;
+}
+
+.blogcontent li{
+	list-style-type:disc;
+}
+
+blockquote {
+	border-left: 4px solid #666;
+	width:430px;
+	margin:10px;
+	padding:0 0 10px 10px;
+	letter-spacing:1px;
+	color:#666;
+}
+
+.blogstrip{
+	text-transform:uppercase;
+	font-size:10px;
+	color:#666;
+	margin-top:20px;
+}
+
+.blogtags{
+	margin:10px 0 15px 0;
+}
+
+.blogdivide{
+	float:left;
+	width:560px;
+	height:15px;
+	background:url('images/hr.jpg');
+	margin-bottom:5px;
+}
+
+.blogtags a{
+	color:#666;
+}
+
+.blogtags a:hover{
+	background:#FAFAFA;
+}
+
+.readmore{
+	float:left;
+	width:85px;
+}
+
+.readmore a{
+	color:#333;
+	text-decoration:none;
+}
+
+.readmore a:hover{
+	color:#666;
+	background:#FAFAFA;
+}
+
+.blogcategory{
+	float:right;
+}
+
+.blogcategory a{
+	color:#333;
+}
+
+.blogcategory a:hover{
+	color:#666;
+	background:#FAFAFA;	
+}
+
+.blogdate{
+	position:relative;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	top:38px;
+	left:5px;
+	width:100px;
+	text-align:right;
+}
+
+.blogdateyear{
+	position:relative;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:14px;
+	top:38px;
+	left:50px;
+	width:60px;
+}
+
+.blogcomments{
+	float:left;
+}
+
+.blogcomments a{
+	color:#333;
+	text-decoration:none;
+}
+
+.blogcomments a:hover{
+	color:#666;
+	background:#FAFAFA;	
+}
+
+
+/* comments
+------------*/
+
+#commentwrap, #commentreplies{
+	float:left;
+	margin:20px 0 0 0;
+}
+
+#commentwrap textarea{
+	width:500px;
+}
+
+.commentitle{
+	border-bottom:#666 solid 2px;
+	float:left;
+	width:590px;
+}
+
+#commentwrap h3, #commentreplies h3{
+	background:#333;
+	float:left;
+	padding: 8px;
+	font-size:13px;
+	color:#fff;
+}
+
+#commentform{
+	float:left;
+	background:#eee;
+	width:590px;
+	padding-top:10px;
+}
+
+ol.commentlist{
+	float:left;
+	width:590px;
+}
+
+ol.commentlist li{
+	float:left;
+	width:580px;
+	padding:10px 0 10px 10px;
+	border-bottom:1px solid #999;
+	background:#fff;
+}
+
+ol.commentlist a{
+	color:#333;
+}
+
+ol.commentlist a:hover{
+	color:#666;
+}
+
+.commentwrapper{
+	float:left;
+}
+
+.commentleft{
+	float:left;
+}
+
+.commentright{
+	float:right;
+}
+
+.commentcentre{
+	float:left;
+	width:120px;
+}
+
+.commentright p{
+	width:405px;
+	padding-left:10px;
+}
+
+.commentsavatar{
+	border:#c0c0c0 solid 1px;
+	padding:4px;
+	margin-right:5px;
+	float:left;
+}
+
+.commentauthor{
+	font-size:11px;
+	color:#333;
+	font-weight:bold;
+	float:left;
+	width:120px;
+	padding-left:5px;
+}
+
+.commentdate{
+	font-size:11px;
+	color:#999;
+	width:120px;
+	padding-left:5px;
+}
+
+.commentcomment{
+	float:left;
+	font-size:13px;
+}
+
+.commentcomment em{
+	color:#999;
+	padding-left:8px;
+}
+
+#commentwrap input{
+	padding:2px;
+	border:0px;
+	margin:10px 10px 10px 0;
+	border:1px solid #666;
+	
+}
+
+#commentwrap textarea{
+	padding:0px;
+	border:0px;
+	margin:10px 10px 10px 0;
+	border:1px solid #666;
+}
+
+
+#commentwrap label{
+	color:#666;	
+	font-weight:bold;
+}
+
+#commentloggedin{
+	color:#666;
+	font-weight:bold;
+	float:left;
+	font-size:12px;
+	margin:10px 10px 10px 0;
+}
+
+#commentloggedin a{
+	color:#666;
+}
+
+#commentloggedin a:hover{
+	text-decoration:none;
+	background:#FAFAFA;	
+}
+
+.commentedit{
+	width:405px;
+	padding-left:10px;
+	margin-top:15px;
+}
+
+
+#submit{
+	text-transform: uppercase;
+	font-size:11px;
+	font-weight:bold;
+}
+
+
+#youmustbe{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size:20px;
+	letter-spacing:-0.1em;
+	font-weight:bold;
+	color:#333;
+	margin:10px 0 10px 0;
+}
+
+#youmustbe a{
+	color:#666;
+}
+
+#youmustbe a:hover{
+	background:#c0c0c0;
+}
+
+/* sidebar
+------------------------------------------------------------------*/
+
+#rss{
+	position:relative;
+	bottom:25px;
+}
+
+#introduction p{
+	margin-top:10px;
+}
+
+#introduction{
+	float:left;
+	font-size:12px;
+	word-spacing:0.1em;
+	line-height:1.6em;
+	background:#fff;
+	border:#c0c0c0 solid 1px;
+	padding:7px;
+	width:195px;
+}
+
+#introductionwrap{
+	float:left;
+	background:#c0c0c0;
+	border:#999 solid 1px;
+	padding:2px;	
+}
+
+#recentposts, #widgetsposts{
+	float:left;
+	font-size:12px;
+	word-spacing:0.1em;
+	line-height:1.6em;
+	background:#fff;
+	border:#c0c0c0 solid 1px;
+	padding:7px;
+	width:195px;
+}
+
+#recentpostswrap, #widgetswrap{
+	float:left;
+	background:#c0c0c0;
+	border:#999 solid 1px;
+	padding:2px;
+	margin-top:15px;
+}
+
+#sidebar{
+	margin:10px 0 10px 0;
+	padding-left:10px;
+	float:left;
+}
+
+
+#widgetsposts li{
+	border-bottom:1px dashed #999;
+}
+
+#widgetsposts li a{
+	color:#000;
+	text-decoration:underline;
+}
+
+.recentpostswrap{
+	float:left;
+	margin-top:15px;
+	display:block;
+	width:193px;
+}
+
+.recentpoststitle a{
+	color:#333;
+}
+
+.recentpoststitle a:hover{
+	color:#666;
+	background:#FAFAFA;	
+}
+
+.recentpostsdate{
+	float:left;
+	width:193px;	
+}
+
+.recentpoststitle{
+	float:left;
+	width:193px;
+}
+
+
+#searchformsidebar{
+	position:relative;
+	float:left;
+	margin-top:15px;
+}
+
+#searchformsidebar input.searchbg{
+	padding:3px;
+	border:1px solid #c0c0c0;
+	width:195px;
+	color:#999;
+}
+
+#searchmenu{
+	float:left;
+}
+
+#searchsubmitbtn{
+	position:relative;
+	bottom:1px;
+	right:10px;
+	float:left;
+}
+
+
+
+#calendarwrap{
+	float:left;
+	background:#c0c0c0;
+	border:#999 solid 1px;
+	padding:2px;
+	margin-top:15px;
+	width:210px;
+}
+
+#calendar{
+	float:left;
+	font-size:12px;
+	word-spacing:0.1em;
+	line-height:1.6em;
+	background:#fff;
+	border:#c0c0c0 solid 1px;
+	padding:7px;
+	width:194px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+}
+
+#widgets a{
+	color:#000;
+}
+
+#widgets a:hover{
+	text-decoration:none;
+}
+
+#wp-calendar{
+	width:194px;
+}
+
+#wp-calendar a{
+	color:#fff;
+	background:#999;
+	padding:2px;
+	text-decoration:none;
+}
+
+#wp-calendar a:hover{
+	background:#666;
+	text-decoration:underline;
+}
+
+
+#prev a{
+	background:none;
+	color:#000;
+}
+
+#next a{
+	background:none;
+	color:#000;
+}
+
+#calendar caption{
+	font-size:14px;
+	font-weight:bold;
+	border-bottom:1px solid #333;
+	padding-bottom:4px;
+}
+
+/* paging
+------------------------------------------------------------------*/
+
+#paging{
+	position:relative;
+	margin-top:20px;
+	float:left;
+	width:586px;
+}
+
+#alignleft{
+	float:left;
+}
+
+#alignright{
+	float:right;
+}
+
+#paging a{
+	color:#000;
+	font-size:18px;
+	text-decoration:none;
+}
+
+#paging a:hover{
+	color:#666;
+}
+
+
+/* footer
+------------------------------------------------------------------*/
+
+
+#footer{
+	background:#212121;
+	font-size: 11px;
+	padding: 18px 0 0px 0;
+	font-size:11px;
+	height:32px;
+	float:left;
+	width:100%;
+}
+
+#footercontent h3{
+	margin-bottom:5px;
+}
+
+#footercontent{
+	width:850px;
+	float:left;
+	margin:20px 0 0 0;
+	padding-bottom:40px;
+}
+
+.footercolumn{
+	float:left;
+	padding-right:20px;
+	margin:0 10px 10px 10px;
+	padding:0 10px 10px 10px;
+	width:160px;
+}
+
+.footercolumn a{
+	color:#666;
+	text-transform: uppercase;
+	text-decoration:none;
+	line-height:2.0em;
+	font-size:11px;
+	
+}
+
+
+.footercolumn a:hover{
+	color:#999;
+}
+
+#footerbg{
+	float:left;
+	background:url('images/footerbg.gif');
+	width:850px;
+}
+
+#footerheader{
+	float:left;
+	height:61px;
+	width:850px;
+	background:url('images/topheader.gif');
+	
+}
+
+
+#footerbottomcontent{
+	width:850px;
+	margin: 0 auto;
+	text-align:left;
+	position:relative;
+	bottom:6px;
+	color:#666;
+}
+
+#footerbottomcontent a{
+	color:#666;
+}
+
+.advertwrapper{
+	float:left;
+}
+
+b.pink{
+	color:#EC005E;
+	font-weight:normal;
+}
+
+
+
+/* recommended by wordpress themes
+------------------------------------------------------------------*/
+
+.wp-caption {
+	border: 1px solid #ddd;
+	text-align: center;
+	background-color: #f3f3f3;
+	padding-top: 4px;
+	margin: 10px;
+	-moz-border-radius: 3px;
+	-khtml-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+}
+
+.wp-caption img {
+	margin: 0;
+	padding: 0;
+	border: 0 none;
+}
+
+.wp-caption-dd {
+	font-size: 11px;
+	line-height: 17px;
+	padding: 0 4px 5px;
+	margin: 0;
+}
+
+.aligncenter {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.alignleft {
+	float: left;
+}
+
+.alignright {
+	float: right;
+}

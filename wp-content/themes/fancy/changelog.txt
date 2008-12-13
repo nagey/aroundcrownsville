@@ -1,0 +1,37 @@
+version 1.1.0 (released 03/12/2008)
+
+    * Added 100% height to the background.
+    * Re-packed the zip file, when it's decompressed the files would be in a folder "fancy".
+
+
+version 1.0.9 (released 27/11/2008)
+
+    * Included wp_footer() in footer.php, stats plugin and many others should work fine now (bug discovered by Antonio, thanks).
+
+
+version 1.0.8 (released 20/11/2008)
+
+    * Fixed some font issues.
+    * Styled blockquote, code tags in comments.
+
+
+version 1.0.7 (released 05/11/2008)
+
+    * Made XHTML code valid again. My previous updates broke it.
+
+
+version 1.0.6 (released 05/11/2008)
+
+    * Reorganized the way I do modifications to my CSS file (thanks for raising this issue Joseph Scott & E-namers). Now everyone would be able to load this theme without any issues.
+
+
+version 1.0.5 (released 04/11/2008)
+
+    * Added an addittional option which controls font size of the whole template (smaller, bigger). Big font looks really nice, don't forget to try.
+    * Fixed sidebar's paddings. Any widget would look nice now.
+    * Fixed search widget styles.
+    * Some minor design fixes.
+
+version 1.0.0 (released 02/10/2008)
+
+    * Initial version

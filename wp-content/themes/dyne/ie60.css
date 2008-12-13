@@ -1,0 +1,20 @@
+#menu {
+	background:url(images/menu2.png) repeat-x;
+	}
+#menu a:hover span {
+  display: none;
+}
+#wrapper {
+
+	margin: 0 auto 0 6px;
+	position:relative;
+	width: 977px;
+	background-image: url(images/mainmidpart.png);
+	background-repeat: repeat-y;
+}
+.cgravatar {
+	float: left;
+	width: 60px;
+	height: 60px;
+	border:0;
+}

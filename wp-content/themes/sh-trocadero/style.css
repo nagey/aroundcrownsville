@@ -1,0 +1,90 @@
+/*
+Theme Name:SH Trocadero
+Theme URI:http://www.idsg.it/2008/10/07/sh-trocadero/
+Description:Two columns white fixed layout theme.
+Version:1.0
+Author:ShinRa
+Author URI:http://www.idsg.it/
+Tags:fixed width,white,gray,widgets ready
+*/
+
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{background:transparent;border:0;font-size:100%;margin:0;outline:0;padding:0;vertical-align:baseline;}
+body{line-height:1;}
+ol,ul{list-style:none;}
+blockquote,q{quotes:none;}
+del{text-decoration:line-through;}
+table{border-collapse:collapse;border-spacing:0;}
+code{font-family:'courier new',courier,monospace;}
+body{background:#fff url(images/body.jpg);color:#333;font:14px/150% arial,tahoma,verdana,sans-serif;}
+#page{width:960px;margin:10px auto 10px auto;background:#fff url(images/page.jpg);}
+#head{height:150px;background:url(images/head.jpg) repeat-x left top;}
+#body{overflow:hidden;height:1%;}
+#content{width:640px;float:left;}
+#sidebar{float:left;width:320px;}
+#footer{text-align:right;font-size:12px;clear:both;height:75px;padding-top:75px;background:url(images/footer.jpg) no-repeat left bottom;}
+div.inner{padding:10px;}
+#head h1{font:38px/100% impact,"trebuchet ms",arial,tahoma,verdana,sans-serif;color:#999;margin-top:30px;}
+#head h1 a{text-decoration:none;color:#555;}
+#head h1 a:hover{color:#000;}
+#head p.description{color:#999;}
+#content a{color:#000;text-decoration:underline;}
+#content a:hover{background:url(images/content_hover.jpg);}
+#content div.post{margin-bottom:60px;}
+#content div.post h2{font:26px/150% impact,"trebuchet ms",arial,tahoma,verdana,sans-serif;color:#333;border-bottom:1px dotted #ddd;font-weight:normal;}
+#content div.post h2.pagetitle{margin-bottom:20px;}
+#content div.post h2 a{text-decoration:none;color:#333;}
+#content div.post h2 a:hover{background:url(images/content_hover.jpg);}
+#content div.post h3,#content div.post h4,#content div.post p,#content div.post ul,#content div.post ol,#content div.post table{margin-bottom:20px;}
+#content div.post li{margin-left:40px;}
+#content div.post ul li{list-style-type:square;}
+#content div.post ol li{list-style-type:decimal;}
+#content div.post li ul,#content div.post li ol{margin-bottom:0;}
+#content div.post li.linkcat{list-style-type:none;}
+#content div.post ul.archivelist li.exists a{color:#999;}
+#content div.post ul.blogroll li{list-style-type:none;margin-left:0;font-size:12px;}
+#content div.post ul.blogroll li a{font-size:14px;}
+#content div.post p.the_time{font-size:12px;text-align:right;color:#999;}
+#content div.post p.the_category{color:#999;font-size:12px;margin-top:10px;padding-top:10px;clear:both;}
+#content h3,#content h4{font:20px/150% impact,"trebuchet ms",arial,tahoma,verdana,sans-serif;color:#333;font-weight:normal;}
+#content h4{font-size:16px;}
+h3#comments,h3#respond{margin-bottom:20px;}
+div.navigation{font-size:12px;overflow:hidden;height:1%;padding:5px;margin-bottom:20px;background:url(images/content_hover.jpg);}
+#content div.post blockquote{padding:10px 10px 1px 10px;margin:20px;letter-spacing:1px;color:#000;background:url(images/content_hover.jpg);}
+#content div.post table{width:100%;}
+#content div.post th{background:url(images/content_hover.jpg);border-right:1px dotted #999;padding:3px;text-align:left;}
+#content div.post td{padding:3px;border-right:1px dotted #999;border-bottom:1px dotted #999;}
+#content ol.commentlist{margin-bottom:40px;font-size:12px;}
+#content ol.commentlist li.commento{padding:10px;margin-bottom:20px;overflow:hidden;height:1%;}
+#content ol.commentlist img.avatar{float:left;margin-right:10px;}
+#content ol.commentlist cite{margin-top:20px;font-style:normal;font:18px/150% impact,"trebuchet ms",arial,tahoma,verdana,sans-serif;font-weight:normal;}
+#content ol.commentlist cite a{text-decoration:none;color:#333;}
+#content small.commentmetadata{display:block;font-size:12px;border-top:1px dotted #666;text-align:right;color:#999;margin-bottom:10px;margin-top:10px;}
+#content small.commentmetadata a{color:#999;}
+#content ol.commentlist p{margin-bottom:10px;}
+#content ol.commentlist li.alt{background:url(images/content_hover.jpg);}
+#commentform{padding:10px;background:url(images/content_hover.jpg);}
+#commentform p{margin-bottom:10px;font-size:12px;}
+#commentform textarea,#commentform input{font:12px/150% arial,tahoma,verdana,sans-serif;}
+#commentform textarea{width:350px;height:100px;}
+#sidebar ul{font-size:12px;}
+#sidebar h2{text-align:left;margin-top:20px;font:20px/150% impact,"trebuchet ms",arial,tahoma,verdana,sans-serif;color:#333;font-weight:normal;}
+#sidebar a{color:#069;text-decoration:none;}
+#sidebar li li a{display:block;padding:5px 0;color:#069;text-decoration:none;}
+#sidebar li li a:hover{background:url(images/side_hover.jpg);}
+#sidebar li li{border-bottom:1px dotted #aaa;margin-top:0;margin-bottom:0;}
+#sidebar li.widget_tag_cloud a{line-height:24pt;}
+#sidebar table a:hover,#sidebar li.widget_tag_cloud a:hover{background:url(images/side_hover.jpg);}
+#sidebar li.recentcomments{padding:5px 0;}
+#sidebar table{width:100%;}
+#sidebar table th,#sidebar table td{padding:2px;text-align:center;}
+#sidebar table th{background:url(images/body.jpg);border-right:1px dotted #ccc;color:#fff;}
+#sidebar table td{border-right:1px dotted #ccc;border-bottom:1px dotted #ccc;}
+#footer a{text-decoration:none;}
+#footer li{display:inline;}
+#footer a span{display:none;}
+.aligncenter,div.aligncenter{display:block;margin-left:auto;margin-right:auto;}
+.alignleft{float:left;margin-right:10px;}
+.alignright{float:right;margin-left:10px;}
+.wp-caption{border:1px solid #ddd;text-align:center;background-color:#f3f3f3;padding-top:4px;margin:10px;}
+.wp-caption img{margin:0;padding:0;border:0 none;}
+.wp-caption p.wp-caption-text{font-size:11px;line-height:17px;padding:0 4px 5px;margin:0;}
