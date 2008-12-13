@@ -57,31 +57,31 @@ Header
 #header {
         background: url(images/header.jpg);
         width: 827px;
-        height: 306px;
+        height: 291px;
 		margin:5px auto;
 	}
 	
 .header-title {
 	font-family: Tahoma, Verdana, Arial;
-	color:#000000;
+	color:#fff;
 	font-size:28px;
     font-weight:bold;
 	padding:50px 0 0 50px;
 	text-align:left;
 	}
 .header-title a{
-	color:#000000;
+	color:#fff;
 	text-decoration:none;
 	border-bottom:none;
 	}
 .header-title a:hover{
-	color:#FFFFFF;
+	color:#f00;
 	text-decoration:none;
 	border-bottom:none;
 	}
 .header-description {
     font-family:Tahoma, Arial, Helvetica, sans-serif;
-	color:#000000;
+	color:#fff;
 	font-size:11px;
 	padding:0px 0 0 51px;
 	text-align:left;
