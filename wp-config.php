@@ -16,16 +16,16 @@
 
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
-define('DB_NAME', 'putyourdbnamehere');
+define('DB_NAME', 'db464_aroundcrownsville');
 
 /** MySQL database username */
-define('DB_USER', 'usernamehere');
+define('DB_USER', 'db464_crownsv');
 
 /** MySQL database password */
-define('DB_PASSWORD', 'yourpasswordhere');
+define('DB_PASSWORD', 'gef4upeT');
 
 /** MySQL hostname */
-define('DB_HOST', 'localhost');
+define('DB_HOST', 'internal-db.s464.gridserver.com');
 
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
@@ -41,10 +41,10 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY', 'put your unique phrase here');
-define('SECURE_AUTH_KEY', 'put your unique phrase here');
-define('LOGGED_IN_KEY', 'put your unique phrase here');
-define('NONCE_KEY', 'put your unique phrase here');
+define('AUTH_KEY',        'lszy:a<a0K+%pNqS>7R~Kjj*/vT^~-/&zR-+$?@$aHLXKwK#Hq|J%Lk9En~S:Tk%');
+define('SECURE_AUTH_KEY', 'FJ4.@Qv#f5bW{eU}Lw&-:Ai( 8*v Fy}+,P/jbIzJwWN3{Eag%Pi@u@w[%BE*/`<');
+define('LOGGED_IN_KEY',   '~^K6V}AL+5m+Q&BLu.%(3.,jR/qVjgzlNn(#m7Sz/M(|db|)/>8xSHt@(qNI`8+3');
+define('NONCE_KEY',       ';1sDhv`StU &[`RgAeH1I|FH#%vtn2>)SgQ_ nQ7i=lNDwh!OJud<uzAy>EW @1O');
 /**#@-*/
 
 /**
