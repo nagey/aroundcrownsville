@@ -1,0 +1,26 @@
+2008-10-12 Rajesh (http://techblissonline.com/) - Version 1.2.2
+
+	* * Updated for wordpress 2.7	
+	  platinum_seo_pack.php
+	  
+2008-10-12 Rajesh (http://techblissonline.com/) - Version 1.2.1
+
+	* Updated for providing an option to turn off  automatic 301 redirects while changing permalink structure 
+	(Refer http://techblissonline.com/wordpress-permalink-structure-plugin/)
+	
+	  platinum_seo_pack.php
+
+2008-08-17 Rajesh (http://techblissonline.com/)
+
+	* Updated for providing Nofollow option for archive listings
+	  platinum_seo_pack.php
+
+2008-07-17 Rajesh (http://techblissonline.com/)
+
+	* Updated for wordpress 2.6
+	  platinum_seo_pack.php
+
+2008-06-25 Rajesh (http://techblissonline.com/)
+
+	* Initial upload of plugin Platinum SEO Pack
+
